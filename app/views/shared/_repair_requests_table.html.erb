@@ -1,0 +1,12 @@
+
+<tr>
+  <td><%= repair_request.open_date %></td>
+  <td><%= repair_request.close_date %></td>
+  <td><%= repair_request.request_details %></td>
+  <td><%= repair_request.request_response %></td>
+  <td><%= repair_request.submitter_id %></td>
+  <td><%= repair_request.responder_id %></td>
+  <td><%= link_to 'Show', repair_request %></td>
+  <td><%= link_to 'Edit', edit_repair_request_path(repair_request) %></td>
+  <td><%= link_to 'Destroy', repair_request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>

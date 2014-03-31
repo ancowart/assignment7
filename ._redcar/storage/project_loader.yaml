@@ -1,0 +1,5 @@
+--- 
+open_files: 
+  - app/views/repair_requests/index.html.erb
+  - app/views/repair_requests/_form.html.erb
+  - app/controllers/repair_requests_controller.rb

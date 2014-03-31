@@ -1,0 +1,59 @@
+<h1>Listing repair_requests</h1>
+  <% if current_user %>  
+<table border= 1>
+  <thead>
+    <tr>
+      <th>Open date</th>
+      <th>Close date</th>
+      <th>Request details</th>
+      <th>Request response</th>
+      <th>Submitter</th>
+      <th>Responder</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+      <tbody>
+        <% if current_user.has_role? :manager %>
+        <% @repair_requests.each do |repair_request| %>
+          <tr>
+            <td><%= repair_request.open_date %></td>
+            <td><%= repair_request.close_date %></td>
+            <td><%= repair_request.request_details %></td>
+            <td><%= repair_request.request_response %></td>
+            <td><%= repair_request.submitter_id %></td>
+            <td><%= repair_request.responder_id %></td>
+            <td><%= link_to 'Show', repair_request %></td>
+            <td><%= link_to 'Edit', edit_repair_request_path(repair_request) %></td>
+            <td><%= link_to 'Destroy', repair_request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        <% end %>
+    <% elsif current_user.has_role? :renter %>
+    
+    <% @repair_requests.where(['submitter_id = ?', current_user.id]).each do |repair_request| %>
+        <tr>
+          <td><%= repair_request.open_date %></td>
+          <td><%= repair_request.close_date %></td>
+          <td><%= repair_request.request_details %></td>
+          <td><%= repair_request.request_response %></td>
+          <td><%= repair_request.submitter_id %></td>
+          <td><%= repair_request.responder_id %></td>
+          <td><%= link_to 'Show', repair_request %></td>
+          <td><%= link_to 'Edit', edit_repair_request_path(repair_request) %></td>
+          <td><%= link_to 'Destroy', repair_request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+      
+    <% end %>  
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+
+  <% if current_user %>  
+    <% if current_user.has_role? :renter %>
+      <%= link_to 'New Repair request', new_repair_request_path %>
+    <% end %>
+<% end %>

@@ -1,0 +1,128 @@
+--- 
+cursor_positions: 
+  - :path: app/models/property.rb
+    :cursor_offset: 53
+    :timestamp: 2014-03-03 19:05:19.319000 -05:00
+  - :path: app/models/unit.rb
+    :cursor_offset: 73
+    :timestamp: 2014-03-03 19:05:34.539000 -05:00
+  - :path: app/models/lease.rb
+    :cursor_offset: 94
+    :timestamp: 2014-03-03 19:05:56.449000 -05:00
+  - :path: app/models/repair_request.rb
+    :cursor_offset: 194
+    :timestamp: 2014-03-03 19:07:39.609000 -05:00
+  - :path: db/migrate/20140304000134_create_repair_requests.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 19:01:34.852000 -05:00
+  - :path: db/migrate/20140304000051_create_users.rb
+    :cursor_offset: 251
+    :timestamp: 2014-03-03 19:13:08.744000 -05:00
+  - :path: db/migrate/20140304001833_create_users.rb
+    :cursor_offset: 269
+    :timestamp: 2014-03-03 19:20:05.083000 -05:00
+  - :path: Gemfile.lock
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 19:48:56.970000 -05:00
+  - :path: config/environments/development.rb
+    :cursor_offset: 432
+    :timestamp: 2014-03-03 02:08:39 -05:00
+  - :path: config/environments/test.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 02:08:39 -05:00
+  - :path: app/controllers/units_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 18:59:48.718000 -05:00
+  - :path: app/assets/stylesheets/leases.css.scss
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 19:00:12.248000 -05:00
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 563
+    :timestamp: 2014-03-03 20:38:56.970000 -05:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 36
+    :timestamp: 2014-03-03 21:01:41.458000 -05:00
+  - :path: db/migrate/20140304021727_create_user_sessions.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 21:17:27.031000 -05:00
+  - :path: app/views/user_sessions/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 21:17:27.158000 -05:00
+  - :path: app/views/user_sessions/_form.html.erb
+    :cursor_offset: 640
+    :timestamp: 2014-03-03 21:25:01.512000 -05:00
+  - :path: config/routes.rb
+    :cursor_offset: 870
+    :timestamp: 2014-03-03 22:08:07.098000 -05:00
+  - :path: Gemfile
+    :cursor_offset: 1260
+    :timestamp: 2014-03-09 20:54:00.014000 -04:00
+  - :path: db/migrate/20140310014414_create_roles_users.rb
+    :cursor_offset: 176
+    :timestamp: 2014-03-10 00:50:08.556000 -04:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 152
+    :timestamp: 2014-03-10 02:57:54.067000 -04:00
+  - :path: app/models/role.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-10 00:50:08.385000 -04:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 346
+    :timestamp: 2014-03-10 19:04:30.593000 -04:00
+  - :path: app/models/ability.rb
+    :cursor_offset: 286
+    :timestamp: 2014-03-10 02:59:46.895000 -04:00
+  - :path: app/assets/stylesheets/main.css
+    :cursor_offset: 819
+    :timestamp: 2014-03-10 19:07:24.813000 -04:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-10 00:50:08.495000 -04:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 276
+    :timestamp: 2014-03-10 19:06:18.510000 -04:00
+  - :path: app/views/shared/_repair_requests_table.html.erb
+    :cursor_offset: 1
+    :timestamp: 2014-03-10 20:30:48.394000 -04:00
+    :selection_offset: 518
+    :block_selection_mode: false
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 246
+    :timestamp: 2014-03-10 20:07:47.868000 -04:00
+  - :path: app/views/users/_form.html.erb
+    :cursor_offset: 456
+    :timestamp: 2014-03-10 19:00:56.659000 -04:00
+  - :path: app/views/shared/_navigation.html.erb
+    :cursor_offset: 438
+    :timestamp: 2014-03-10 22:33:04.536000 -04:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 370
+    :timestamp: 2014-03-10 18:49:20.627000 -04:00
+  - :path: app/models/user.rb
+    :cursor_offset: 205
+    :timestamp: 2014-03-10 18:47:12.525000 -04:00
+  - :path: app/controllers/user_sessions_controller.rb
+    :cursor_offset: 720
+    :timestamp: 2014-03-10 00:50:08.358000 -04:00
+  - :path: app/models/user_session.rb
+    :cursor_offset: 49
+    :timestamp: 2014-03-10 00:50:08.390000 -04:00
+  - :path: app/views/repair_requests/show.html.erb
+    :cursor_offset: 271
+    :timestamp: 2014-03-10 00:50:08.456000 -04:00
+  - :path: app/views/repair_requests/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-10 00:50:08.440000 -04:00
+  - :path: app/views/repair_requests/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-10 00:50:08.451000 -04:00
+  - :path: app/views/repair_requests/index.html.erb
+    :cursor_offset: 1306
+    :timestamp: 2014-03-11 02:56:39.151000 -04:00
+  - :path: app/views/repair_requests/_form.html.erb
+    :cursor_offset: 1093
+    :timestamp: 2014-03-11 03:09:13.780000 -04:00
+  - :path: app/controllers/repair_requests_controller.rb
+    :cursor_offset: 2426
+    :timestamp: 2014-03-11 03:01:48.141000 -04:00
+files_to_retain: 0
