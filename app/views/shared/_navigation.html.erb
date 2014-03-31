@@ -2,7 +2,8 @@
 		<ul>
 			<li><%= link_to('users', root_url) %></li>      
       
-      <% if current_user %>      
+      <% if current_user %>
+        <li><%= link_to("Payments", payments_path) %></li>
         <li><%= link_to("Logout", logout_path) %></li>
         <li><%= link_to("edit profile", edit_user_path(current_user.id)) %>
       <% else %>      
