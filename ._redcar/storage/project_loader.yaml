@@ -1,5 +1,9 @@
 --- 
 open_files: 
-  - app/views/repair_requests/index.html.erb
-  - app/views/repair_requests/_form.html.erb
-  - app/controllers/repair_requests_controller.rb
+  - app/models/payment.rb
+  - app/views/payments/_form.html.erb
+  - app/controllers/payments_controller.rb
+  - Gemfile
+  - config/environments/development.rb
+  - config/environments/production.rb
+  - config/environments/test.rb

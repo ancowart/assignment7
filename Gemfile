@@ -52,3 +52,6 @@ gem 'scrypt'
 
 #add cancan
 gem 'cancan'
+
+#add AM
+gem 'activemerchant'
