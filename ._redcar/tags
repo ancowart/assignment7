@@ -1,4 +1,4 @@
-1396335481
+1396336891
 Ability	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/ability.rb	class Ability 
 AddPaymentIdToPaymentTransactions	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb	class AddPaymentIdToPaymentTransactions 
 AddPropertyIdToUnit	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140401063251_add_property_id_to_unit.rb	class AddPropertyIdToUnit 
@@ -7,6 +7,7 @@ AddUserIdToPayment	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/2014
 CreatePaymentTransactions	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234459_create_payment_transactions.rb	class CreatePaymentTransactions 
 CreatePayments	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331213242_create_payments.rb	class CreatePayments 
 Lease	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/lease.rb	class Lease 
+LeasesController	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	class LeasesController 
 Payment	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	class Payment 
 PaymentTest	C:/Users/Anthony/Documents/GitHub/assignment7/test/models/payment_test.rb	class PaymentTest 
 PaymentTransaction	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment_transaction.rb	class PaymentTransaction 
@@ -27,24 +28,33 @@ change	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140401063251_a
 change	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140401065223_add_unit_id_to_lease.rb	  def change
 create	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def create
 create	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def create
+create	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def create
 credit_card	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	  def credit_card
 destroy	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def destroy
+destroy	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def destroy
 edit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def edit
 edit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def edit
+edit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def edit
 has_role?	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/user.rb	  def has_role?(role_sym)
 index	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def index
 index	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def index
+index	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def index
 initialize	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/ability.rb	  def initialize(thisuser)
+lease_params	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	    def lease_params
 make_transaction	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	  def make_transaction 
 new	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def new
 new	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def new
+new	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def new
 payment_params	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	    def payment_params
+set_lease	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	    def set_lease
 set_payment	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	    def set_payment
 set_unit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	    def set_unit
 show	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def show
 show	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def show
+show	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def show
 unit_params	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	    def unit_params
 update	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def update
 update	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def update
+update	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def update
 validate_card	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	    def validate_card
