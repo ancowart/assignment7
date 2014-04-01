@@ -3,7 +3,4 @@ open_files:
   - app/models/payment.rb
   - app/views/payments/_form.html.erb
   - app/controllers/payments_controller.rb
-  - Gemfile
-  - config/environments/development.rb
-  - config/environments/production.rb
-  - config/environments/test.rb
+  - app/models/payment_transaction.rb

@@ -6,7 +6,7 @@ class Ability
     thisuser ||= User.new
     
     if thisuser.has_role? :manager
-      can :manage, :all
+      can :manage, [Property, Unit, Lease, User]
     elsif thisuser.has_role? :renter
       can :index, :all
       can :manage, thisuser

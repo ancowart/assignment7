@@ -6,13 +6,15 @@
         <li><%= link_to("Payments", payments_path) %></li>
         <li><%= link_to("Logout", logout_path) %></li>
         <li><%= link_to("edit profile", edit_user_path(current_user.id)) %>
+        <li><%= link_to("repair requests", repair_requests_path) %></li>
       <% else %>      
         <li><%= link_to("Login", login_path) %></li>
         <li><%= link_to("Create account", new_user_path) %></li>
       <% end %>
-      <% if current_user %>
-        <li><%= link_to("repair requests", repair_requests_path) %></li>
-        <li><%= link_to("leases", leases_path)%>
+      <% if current_user.has_role? :manager %>
+        <li><%= link_to("Properties", properties_path) %></li>
+        <li><%= link_to("leases", leases_path) %>
+        <li><%= link_to("units", units_path) %></li>
       <% end %>
 		</ul>
 	</div>

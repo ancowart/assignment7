@@ -1,4 +1,5 @@
-1396309805
+1396331513
+Ability	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/ability.rb	class Ability 
 AddPaymentIdToPaymentTransactions	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb	class AddPaymentIdToPaymentTransactions 
 AddUserIdToPayment	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331213445_add_user_id_to_payment.rb	class AddUserIdToPayment 
 CreatePaymentTransactions	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234459_create_payment_transactions.rb	class CreatePaymentTransactions 
@@ -23,6 +24,7 @@ destroy	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_c
 edit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def edit
 has_role?	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/user.rb	  def has_role?(role_sym)
 index	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def index
+initialize	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/ability.rb	  def initialize(thisuser)
 make_transaction	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	  def make_transaction 
 new	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def new
 payment_params	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	    def payment_params
