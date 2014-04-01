@@ -12,9 +12,6 @@ cursor_positions:
   - :path: Gemfile.lock
     :cursor_offset: 0
     :timestamp: 2014-03-03 19:48:56.970000 -05:00
-  - :path: app/controllers/units_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2014-03-03 18:59:48.718000 -05:00
   - :path: app/assets/stylesheets/leases.css.scss
     :cursor_offset: 0
     :timestamp: 2014-03-03 19:00:12.248000 -05:00
@@ -104,9 +101,6 @@ cursor_positions:
   - :path: config/environments/development.rb
     :cursor_offset: 1272
     :timestamp: 2014-03-31 19:29:27.971000 -04:00
-  - :path: db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb
-    :cursor_offset: 0
-    :timestamp: 2014-03-31 19:47:36.308000 -04:00
   - :path: app/controllers/payments_controller.rb
     :cursor_offset: 606
     :timestamp: 2014-03-31 19:12:09.818000 -04:00
@@ -146,19 +140,43 @@ cursor_positions:
   - :path: app/models/lease.rb
     :cursor_offset: 0
     :timestamp: 2014-03-10 00:50:10 -04:00
-  - :path: app/models/unit.rb
-    :cursor_offset: 0
-    :timestamp: 2014-03-10 00:50:10 -04:00
   - :path: app/models/ability.rb
     :cursor_offset: 279
     :timestamp: 2014-04-01 01:31:23.929000 -04:00
-  - :path: app/views/repair_requests/_form.html.erb
-    :cursor_offset: 0
-    :timestamp: 2014-03-11 03:09:14 -04:00
   - :path: app/views/shared/_navigation.html.erb
     :cursor_offset: 632
     :timestamp: 2014-04-01 01:51:48.071000 -04:00
   - :path: app/controllers/properties_controller.rb
     :cursor_offset: 0
     :timestamp: 2014-03-10 00:50:10 -04:00
+  - :path: app/views/repair_requests/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-11 03:09:14 -04:00
+  - :path: app/views/leases/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-10 00:50:10 -04:00
+  - :path: db/migrate/20140401062818_added_foreign_key_to_unit_model.rb
+    :cursor_offset: 82
+    :timestamp: 2014-04-01 02:28:18.682000 -04:00
+  - :path: db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-31 19:47:36.308000 -04:00
+  - :path: db/migrate/20140401063251_add_property_id_to_unit.rb
+    :cursor_offset: 120
+    :timestamp: 2014-04-01 02:32:51.753000 -04:00
+  - :path: app/views/units/_form.html.erb
+    :cursor_offset: 335
+    :timestamp: 2014-04-01 02:40:21.583000 -04:00
+  - :path: app/views/units/index.html.erb
+    :cursor_offset: 308
+    :timestamp: 2014-04-01 02:43:07.210000 -04:00
+  - :path: app/controllers/units_controller.rb
+    :cursor_offset: 1411
+    :timestamp: 2014-04-01 02:34:53.990000 -04:00
+  - :path: app/models/unit.rb
+    :cursor_offset: 100
+    :timestamp: 2014-04-01 02:38:15.041000 -04:00
+  - :path: db/migrate/20140401065223_add_unit_id_to_lease.rb
+    :cursor_offset: 0
+    :timestamp: 2014-04-01 02:52:23.958000 -04:00
 files_to_retain: 0
