@@ -10,10 +10,12 @@ class Payment < ActiveRecord::Base
   validate :validate_card, :on => :create
   
   belongs_to :user
+  has_many :transactions, :class_name => :PaymentTransaction
   
   
   def make_transaction    
     response = GATEWAY.purchase((amount*100) , credit_card)
+    transactions.create(:response => response, :payment => self)
     response.success?    
   end
   

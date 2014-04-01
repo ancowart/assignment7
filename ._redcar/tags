@@ -1,8 +1,12 @@
-1396307869
+1396309805
+AddPaymentIdToPaymentTransactions	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb	class AddPaymentIdToPaymentTransactions 
 AddUserIdToPayment	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331213445_add_user_id_to_payment.rb	class AddUserIdToPayment 
+CreatePaymentTransactions	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234459_create_payment_transactions.rb	class CreatePaymentTransactions 
 CreatePayments	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331213242_create_payments.rb	class CreatePayments 
 Payment	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	class Payment 
 PaymentTest	C:/Users/Anthony/Documents/GitHub/assignment7/test/models/payment_test.rb	class PaymentTest 
+PaymentTransaction	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment_transaction.rb	class PaymentTransaction 
+PaymentTransactionTest	C:/Users/Anthony/Documents/GitHub/assignment7/test/models/payment_transaction_test.rb	class PaymentTransactionTest 
 PaymentsController	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	class PaymentsController 
 PaymentsControllerTest	C:/Users/Anthony/Documents/GitHub/assignment7/test/controllers/payments_controller_test.rb	class PaymentsControllerTest 
 PaymentsHelper	C:/Users/Anthony/Documents/GitHub/assignment7/app/helpers/payments_helper.rb	module PaymentsHelper
@@ -11,6 +15,8 @@ User	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/user.rb	class User
 card_number	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	  attr_accessor :card_number  
 change	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331213242_create_payments.rb	  def change
 change	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331213445_add_user_id_to_payment.rb	  def change
+change	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234459_create_payment_transactions.rb	  def change
+change	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb	  def change
 create	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def create
 credit_card	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/payment.rb	  def credit_card
 destroy	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def destroy

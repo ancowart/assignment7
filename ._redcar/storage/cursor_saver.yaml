@@ -134,16 +134,22 @@ cursor_positions:
   - :path: app/controllers/payments_controller.rb
     :cursor_offset: 1445
     :timestamp: 2014-03-31 18:41:21.753000 -04:00
-  - :path: config/environments/test.rb
-    :cursor_offset: 1617
-    :timestamp: 2014-03-31 18:53:11.885000 -04:00
-  - :path: config/environments/production.rb
-    :cursor_offset: 3362
-    :timestamp: 2014-03-31 18:58:07.176000 -04:00
   - :path: Gemfile
     :cursor_offset: 1235
     :timestamp: 2014-03-31 18:46:27.140000 -04:00
+  - :path: config/environments/test.rb
+    :cursor_offset: 1027
+    :timestamp: 2014-03-31 19:17:49.330000 -04:00
+  - :path: config/environments/production.rb
+    :cursor_offset: 3288
+    :timestamp: 2014-03-31 19:17:44.881000 -04:00
+  - :path: app/views/payments/failed.html.erb
+    :cursor_offset: 14
+    :timestamp: 2014-03-31 19:12:32.811000 -04:00
   - :path: config/environments/development.rb
-    :cursor_offset: 706
-    :timestamp: 2014-03-31 18:51:38.990000 -04:00
+    :cursor_offset: 1272
+    :timestamp: 2014-03-31 19:29:27.971000 -04:00
+  - :path: db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-31 19:47:36.308000 -04:00
 files_to_retain: 0
