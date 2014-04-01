@@ -1,4 +1,4 @@
-1396336891
+1396337533
 Ability	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/ability.rb	class Ability 
 AddPaymentIdToPaymentTransactions	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140331234736_add_payment_id_to_payment_transactions.rb	class AddPaymentIdToPaymentTransactions 
 AddPropertyIdToUnit	C:/Users/Anthony/Documents/GitHub/assignment7/db/migrate/20140401063251_add_property_id_to_unit.rb	class AddPropertyIdToUnit 
@@ -36,6 +36,7 @@ destroy	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_con
 edit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def edit
 edit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def edit
 edit	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/leases_controller.rb	  def edit
+full_title	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/unit.rb	  def full_title
 has_role?	C:/Users/Anthony/Documents/GitHub/assignment7/app/models/user.rb	  def has_role?(role_sym)
 index	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/payments_controller.rb	  def index
 index	C:/Users/Anthony/Documents/GitHub/assignment7/app/controllers/units_controller.rb	  def index

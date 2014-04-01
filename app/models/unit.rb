@@ -4,4 +4,9 @@ class Unit < ActiveRecord::Base
   
   validates :name, :presence => true 
   validates :square_feet, :presence => true, :numericality => {:only_integer => true}
+
+  def full_title
+    return "#{property.name}: #{name}"
+  end
+  
 end
